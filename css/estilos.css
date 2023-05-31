@@ -131,7 +131,7 @@ img {
   bottom: 0px;
   right:30px;
   position:  fixed;
-  visibility:hidden
+
 }
 
 @media (max-width:600px) {
