@@ -98,8 +98,8 @@ img {
     position:fixed;
     height:55px;
     width:55px; 
-    bottom: 60px;
-    right: 30px;
+    bottom: 50px;
+    right: 10px;
     line-height:55px; 
     color:white;
     background-color:#12e22b;
@@ -130,7 +130,8 @@ img {
   z-index:100;
   bottom: 0px;
   right:30px;
-  position:  fixed
+  position:  fixed;
+  visibility:hidden
 }
 
 @media (max-width:600px) {
@@ -144,6 +145,16 @@ img {
         width: 120px;
         bottom: -15px;
 
+    }
+    .title{
+        font-size: large;
+        
+    }
+    .subtitle{
+        font-size: medium;
+    }
+    .plans{
+        font-size: smaller;
     }
 } 
     
